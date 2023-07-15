@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tianqi-mod",
+	"version": "0.0.1",
+	"name": "TianQi Mod",
+	"description": "作者TNTXZ在精神状态良好（反）时所编",
+	"authors": [
+		"TNTXZ"
+	],
+	"contact": {
+		"homepage": "https://www.tianqi.eu.org/",
+		"sources": "https://github.com/TNTXZ/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tianqi-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.eu.tianqi.TianQiMod"
+		],
+		"client": [
+			"org.eu.tianqi.TianQiModClient"
+		],
+		"fabric-datagen": [
+			"org.eu.tianqi.TianQiModDataGenerator"
+		]
+	},
+	"mixins": [
+		"tianqi-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

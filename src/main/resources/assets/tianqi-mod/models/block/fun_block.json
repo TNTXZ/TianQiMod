@@ -1,0 +1,6 @@
+{
+  "parent" : "block/cube_all",
+  "textures" : {
+    "all" : "tianqi-mod:block/fun_block"
+  }
+}

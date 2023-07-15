@@ -1,0 +1,5 @@
+{
+  "variants" : {
+    "" : { "model" : "tianqi-mod:block/fun_block" }
+  }
+}
